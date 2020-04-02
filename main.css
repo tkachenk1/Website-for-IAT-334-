@@ -176,5 +176,63 @@ header {
 }
 
 
+/* ~~~ FOOTER ~~~ */
 
+.footer-1 {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  -webkit-flex-wrap: wrap;
+  display: block;
+  justify-content: space-between;
+  padding: 1.2em 10%;
+  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  text-align: center;
+  background-color: #6237BD;
+  padding-bottom: 4em;
+}
+
+.footer-2 {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  -webkit-flex-wrap: wrap;
+  display: block;
+  justify-content: space-between;
+  padding: 1.2em 10%;
+  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  text-align: center;
+  background-color: black;
+}
+
+.footer-h2{
+  color: white;
+  font-weight: 400;
+}
+
+.footer-button{
+  font-weight: 300;
+  font-size: 1.2em;
+  color: white;
+  padding: .7em 1.5em;
+  text-decoration: none;
+  border-radius: 4px;
+  border: 1px solid white;
+}
+
+.footer-button:hover {
+  background-color: #7649d6;
+  transition: .3s;
+}
+
+.names{
+  line-height: 1;
+  font-size: 1em;
+  color: white;
+  opacity: 70%;
+}
 
