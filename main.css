@@ -55,6 +55,11 @@ body {
   min-height: 80vh;
 }
 
+p {
+  font-size: 1.2em;
+  white-space: pre-line;
+}
+
 
 /* ~~~ NAVIGATION ~~~ */
 
@@ -134,6 +139,41 @@ header {
 }
 
 
+/* ~~~ LANDING PAGE CONTENT ~~~ */
+
+.index-container{
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+
+  padding: 1.2em 17%;
+  flex-wrap: wrap; 
+  text-align: center;
+}
+
+.banner-img {
+  max-width: 100%;
+  height: auto;
+  padding-bottom: 3em;
+}
+
+.highlighted-text{ 
+  color: #6237BD;
+ }
+
+.banner-h1{
+  white-space: pre-line;
+}
+
+.grey-p {
+  color: #636363;
+}
 
 
 
