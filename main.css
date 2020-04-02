@@ -73,23 +73,64 @@ header {
   flex-wrap: wrap;
 }
 
+/* Our Process */ 
 .nav-link {
   font-size: 1.2em;
-  padding-left: 1em;
-  padding-right: 1em;
+  padding: .1em 1em;
+  font-weight: 400;
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  position: relative;
+}
+
+/* Learned border bottom nav link: https://www.w3schools.com/howto/howto_css_navbar_border.asp */
+.nav-link-2 {
+  font-size: 1.2em;
+  padding: .1em 1em;
   font-weight: 400;
   display: inline-block;
   text-decoration: none;
   color: black;
   position: relative;
 
+  border-bottom: 3px solid #6237BD;
+}
+
+/* Try Burst */ 
+.nav-button {
+  font-size: 1.2em;
+  padding: .3em 2em;
+  font-weight: 400;
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  position: relative;
+  background: #6237BD;
+  border-radius: .3em;
+  margin-left: 2em;
 }
 
 .nav-logo {
-	font-size: 1.5em;
-	font-weight: 700;
-  	text-decoration: none;
-  	color: black;
+  font-size: 1.8em;
+  font-weight: 900;
+  text-decoration: none;
+  color: black;
+}
+
+.nav-button:hover {
+  opacity: 70%;
+  transition: .3s;
+}
+
+.nav-link:hover {
+  opacity: 60%;
+  transition: .3s;
+} 
+
+.nav-logo:hover {
+  opacity: 60%;
+  transition: .3s;
 }
 
 
