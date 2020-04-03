@@ -1,9 +1,294 @@
-*, *::after, *::before {
+/*  *, *::after, *::before {
     box-sizing: border-box;
 }
 
-*{
+* {
   margin: 0;
   padding: 0;
   text-decoration: none;
+} */
+
+
+/* ~~~ FONTS ~~~ */
+
+
+@font-face {
+  font-family: 'Lato';
+  font-weight: 300; /* LIGHT */
+  font-style: normal;
+  src: url('../fonts/Lato-Light.ttf');
+  src: url('../fonts/Lato-Light.ttf?#iefix') format('embedded-opentype');
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-weight: 400; /* REGULAR */
+  font-style: normal;
+  src: url('../fonts/Lato-Regular.ttf');
+  src: url('../fonts/Lato-Light.ttf?#iefix') format('embedded-opentype');
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-weight: 700; /* BOLD */
+  font-style: normal;
+  src: url('../fonts/Lato-Bold.ttf');
+  src: url('../fonts/Lato-Light.ttf?#iefix') format('embedded-opentype');
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-weight: 900; /* BLACK */
+  font-style: normal;
+  src: url('../fonts/Lato-Black.ttf');
+  src: url('../fonts/Lato-Light.ttf?#iefix') format('embedded-opentype');
+}
+
+
+/* ~~~ MAIN ~~~ */
+
+
+body {
+  font-family: "Lato", Arial, sans-serif;
+  font-size: 1em;
+  line-height: 2;
+  min-height: 80vh;
+}
+
+p {
+  font-size: 1.2em;
+  white-space: pre-line;
+}
+
+
+/* ~~~ NAVIGATION ~~~ */
+
+
+header {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  -webkit-flex-wrap: wrap;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 3em 0em;
+  flex-wrap: wrap;
+}
+
+/* Our Process */
+.nav-link {
+  font-size: 1.2em;
+  padding: .1em 1em;
+  font-weight: 400;
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  position: relative;
+}
+
+/* Learned border bottom nav link: https://www.w3schools.com/howto/howto_css_navbar_border.asp */
+.nav-link-2 {
+  font-size: 1.2em;
+  padding: .1em 1em;
+  font-weight: 400;
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  position: relative;
+
+  border-bottom: 3px solid #6237BD;
+}
+
+/* Try Burst */
+.nav-button {
+  font-size: 1.2em;
+  padding: .3em 2em;
+  font-weight: 400;
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  position: relative;
+  background: #6237BD;
+  border-radius: .3em;
+  margin-left: 2em;
+}
+
+.nav-logo {
+  font-size: 1.8em;
+  font-weight: 900;
+  text-decoration: none;
+  color: black;
+}
+
+.nav-button:hover {
+  opacity: 70%;
+  transition: .3s;
+}
+
+.nav-link:hover {
+  opacity: 60%;
+  transition: .3s;
+}
+
+.nav-logo:hover {
+  opacity: 60%;
+  transition: .3s;
+}
+
+
+/* ~~~ LANDING PAGE CONTENT ~~~ */
+
+.index-container{
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+
+  padding: 1.2em 17%;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.banner-img {
+  max-width: 100%;
+  height: auto;
+  padding-bottom: 3em;
+}
+
+.highlighted-text{
+  color: #6237BD;
+ }
+
+.banner-h1{
+  white-space: pre-line;
+}
+
+.grey-p {
+  color: #636363;
+}
+
+
+/* ~~~ FOOTER ~~~ */
+
+.footer-1 {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  -webkit-flex-wrap: wrap;
+  display: block;
+  justify-content: space-between;
+  padding: 1.2em 10%;
+  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  text-align: center;
+  background-color: #6237BD;
+  padding-bottom: 4em;
+}
+
+.footer-2 {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  -webkit-flex-wrap: wrap;
+  display: block;
+  justify-content: space-between;
+  padding: 1.2em 10%;
+  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  text-align: center;
+  background-color: black;
+}
+
+.footer-h2{
+  color: white;
+  font-weight: 400;
+}
+
+.footer-button{
+  font-weight: 300;
+  font-size: 1.2em;
+  color: white;
+  padding: .7em 1.5em;
+  text-decoration: none;
+  border-radius: 4px;
+  border: 1px solid white;
+}
+
+.footer-button:hover {
+  background-color: #7649d6;
+  transition: .3s;
+}
+
+.names{
+  line-height: 1;
+  font-size: 1em;
+  color: white;
+  opacity: 70%;
+}
+
+.process-banner{
+  position: absolute;
+width: 650.62px;
+height: 132px;
+left: 158.65px;
+top: 366.47px;
+
+font-family: Lato-black.ttf;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 66px;
+
+color: #000000;
+}
+
+.reaserch{
+  position: absolute;
+width: 1068.07px;
+height: 168.73px;
+left: 158.65px;
+top: 700.11px;
+}
+
+#reaserch-body{
+  font-family: Lato-regular.ttf;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 24px;
+}
+
+#mockup-header{
+  position: absolute;
+width: 273px;
+height: 520px;
+left: 500px;
+top: 180px;
+}
+
+.process-container{
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+
+  justify-content: left;
+  align-items: center;
+
+  padding: 1.2em 10%;
+  flex-wrap: wrap;
+  text-align: left;
+  padding-top: 640px;
 }
