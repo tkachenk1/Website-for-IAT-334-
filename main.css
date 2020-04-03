@@ -6,7 +6,7 @@
   margin: 0;
   padding: 0;
   text-decoration: none;
-} 
+}
 
 
 /* ~~~ FONTS ~~~ */
@@ -17,7 +17,7 @@
   font-weight: 300; /* LIGHT */
   font-style: normal;
   src: url('../fonts/Lato-Light.ttf');
-  src: url('../fonts/Lato-Light.ttf?#iefix') format('embedded-opentype'); 
+  src: url('../fonts/Lato-Light.ttf?#iefix') format('embedded-opentype');
 }
 
 @font-face {
@@ -25,7 +25,7 @@
   font-weight: 400; /* REGULAR */
   font-style: normal;
   src: url('../fonts/Lato-Regular.ttf');
-  src: url('../fonts/Lato-Light.ttf?#iefix') format('embedded-opentype'); 
+  src: url('../fonts/Lato-Light.ttf?#iefix') format('embedded-opentype');
 }
 
 @font-face {
@@ -33,7 +33,7 @@
   font-weight: 700; /* BOLD */
   font-style: normal;
   src: url('../fonts/Lato-Bold.ttf');
-  src: url('../fonts/Lato-Light.ttf?#iefix') format('embedded-opentype'); 
+  src: url('../fonts/Lato-Light.ttf?#iefix') format('embedded-opentype');
 }
 
 @font-face {
@@ -41,7 +41,7 @@
   font-weight: 900; /* BLACK */
   font-style: normal;
   src: url('../fonts/Lato-Black.ttf');
-  src: url('../fonts/Lato-Light.ttf?#iefix') format('embedded-opentype'); 
+  src: url('../fonts/Lato-Light.ttf?#iefix') format('embedded-opentype');
 }
 
 
@@ -50,7 +50,7 @@
 
 body {
   font-family: "Lato", Arial, sans-serif;
-  font-size: 1em; 
+  font-size: 1em;
   line-height: 2;
   min-height: 80vh;
 }
@@ -78,7 +78,7 @@ header {
   flex-wrap: wrap;
 }
 
-/* Our Process */ 
+/* Our Process */
 .nav-link {
   font-size: 1.2em;
   padding: .1em 1em;
@@ -102,7 +102,7 @@ header {
   border-bottom: 3px solid #6237BD;
 }
 
-/* Try Burst */ 
+/* Try Burst */
 .nav-button {
   font-size: 1.2em;
   padding: .3em 2em;
@@ -131,7 +131,7 @@ header {
 .nav-link:hover {
   opacity: 60%;
   transition: .3s;
-} 
+}
 
 .nav-logo:hover {
   opacity: 60%;
@@ -153,7 +153,7 @@ header {
   align-items: center;
 
   padding: 1.2em 17%;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
   text-align: center;
 }
 
@@ -174,7 +174,7 @@ header {
 
   justify-content: space-around;
 
-} 
+}
 
 .icon-with-text {
 
@@ -188,7 +188,7 @@ header {
   display: -webkit-flex;
   -webkit-flex-wrap: wrap;
   flex-wrap: wrap;
-  
+
   flex-direction: column;
 
   justify-content: space-between;
@@ -231,7 +231,7 @@ header {
 .icon-img {
   width: 100%;
   position: relative;
- 
+
 }
 
 .p-bold{
@@ -339,3 +339,83 @@ header {
   opacity: 70%;
 }
 
+
+/* ~~~ LANDING PAGE CONTENT for PROCESS ~~~ */
+.process-container{
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+
+  justify-content: left;
+  align-items: center;
+
+  padding: 1.2em 15%;
+  flex-wrap: wrap;
+  text-align: left;
+}
+
+#banner-p{
+  font-size: 3em;
+}
+
+.highlighted-text-grey{
+  color: grey;
+}
+
+
+.two-columns {
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+
+  justify-content: space-around;
+
+}
+
+
+.title-with-para{
+
+
+padding-left: 2em;
+  position: relative;
+
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+
+  flex-direction: column;
+
+
+
+
+}
+
+.p-bold-purple{
+
+  color: #6237BD;
+  font-weight: 700;
+  text-align: left;
+  display: block;
+  padding-top: 1em;
+}
+
+.short-para-citation{
+
+  white-space: pre-line;
+  text-align: left;
+  padding-top: 1em;
+}
