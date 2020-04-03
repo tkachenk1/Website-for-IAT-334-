@@ -192,14 +192,21 @@ header {
   flex-direction: column;
 
   justify-content: space-between;
-
-
 } 
 
 .banner-img {
   max-width: 100%;
   height: auto;
   padding-bottom: 3em;
+}
+
+.line-img{
+  padding-top: 1em;
+  padding-bottom: 2em;
+}
+
+.index-p {
+  padding-bottom: 4em;
 }
 
 .highlighted-text{ 
@@ -209,6 +216,12 @@ header {
 .banner-h1{
   white-space: pre-line;
   display: block;
+}
+
+.banner-h1-2 {
+  white-space: pre-line;
+  display: block;
+  padding-top: 3em;
 }
 
 .grey-p {
@@ -235,7 +248,33 @@ header {
   padding-top: 1em;
 }
 
+.gif-with-text {
+  position: relative;
+  padding: 1em;
 
+
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  
+  flex-direction: column;
+
+  justify-content: space-between;
+}
+
+.gif {
+	
+}
+
+.gif-caption{
+  font-size: 1em;
+  white-space: pre-line;
+  text-align: center;
+  padding-top: 1em;
+}
 
 /* ~~~ FOOTER ~~~ */
 
