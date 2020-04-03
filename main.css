@@ -194,15 +194,56 @@ header {
   justify-content: space-between;
 } 
 
+.hero-container {
+    position: relative;
+    height: auto;
+    padding-bottom: 0;
+    
+    overflow-y: hidden;
+}
+
+.hero-content {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: auto;
+    padding: 6rem 12%;
+    
+    display: flex;
+    justify-content: space-around;
+    
+    overflow-y: hidden;
+}
+
+.hero-content h1 {
+    color: white;
+    font-size: 3rem;
+    line-height: 4rem;
+    width: 40%;
+}
+
+.hero-content img {
+    padding-top: 2rem;
+}
+
 .banner-img {
   max-width: 100%;
   height: auto;
-  padding-bottom: 3em;
+/*  padding-bottom: 3em;*/
+}
+
+.burst-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .line-img{
-  padding-top: 1em;
-  padding-bottom: 2em;
+    width:50%;
+    padding-top: 1em;
+    padding-bottom: 2em;
 }
 
 .index-p {
@@ -216,6 +257,8 @@ header {
 .banner-h1{
   white-space: pre-line;
   display: block;
+  padding-top: 2rem;
+  margin-bottom: 0;
 }
 
 .banner-h1-2 {
