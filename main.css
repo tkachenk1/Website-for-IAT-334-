@@ -313,7 +313,7 @@ header {
   justify-content: left;
   align-items: center;
 
-  padding: 1.2em 10%;
+  padding: 1.2em 15%;
   flex-wrap: wrap;
   text-align: left;
 }
@@ -324,4 +324,58 @@ header {
 
 .highlighted-text-grey{
   color: grey;
+}
+
+
+.two-columns {
+  padding: 4em 15%;
+  width: 100%;
+
+
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+
+  justify-content: space-around;
+
+}
+
+
+.title-with-para{
+  width:50%;
+  padding-right: 4em;
+  position: relative;
+
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+
+  flex-direction: column;
+
+
+
+
+}
+
+.p-bold-purple{
+
+  color: #6237BD;
+  font-weight: 700;
+  text-align: left;
+  display: block;
+  padding-top: 1em;
+}
+
+.short-para-citation{
+
+  white-space: pre-line;
+  text-align: left;
+  padding-top: 1em;
 }
