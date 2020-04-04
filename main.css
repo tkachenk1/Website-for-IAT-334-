@@ -216,6 +216,10 @@ header {
     overflow-y: hidden;
 }
 
+.hero-content img {
+    width: 35%;
+}
+
 .hero-content h1 {
     color: white;
     font-size: 3rem;
