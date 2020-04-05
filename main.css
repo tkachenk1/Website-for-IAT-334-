@@ -79,9 +79,9 @@
       -webkit-flex-wrap: wrap;
 
       display: flex;
-      justify-content: space-around;
+      justify-content: space-between;
       align-items: center;
-      padding: 3em 0em;
+      padding: 3em 18%;
       flex-wrap: wrap;
   }
 
@@ -368,6 +368,14 @@
       background-color: black;
   }
 
+.footer-2 a {
+    color: white;
+}
+
+.footer-2 a:hover {
+    border-bottom: 1px solid white;
+}
+
   .footer-h2 {
       color: white;
       font-weight: 400;
@@ -399,7 +407,8 @@
 
 
   /* ~~~ LANDING PAGE CONTENT for PROCESS ~~~ */
-  .process-container {
+  .process-container,
+  .breakdown-container {
       display: -webkit-box;
       display: -moz-box;
       display: -ms-flexbox;
@@ -415,15 +424,18 @@
       text-align: left;
   }
 
-  .process-container img {
+  .process-container img,
+  .breakdown-container img {
       margin-bottom: 2rem;
   }
 
-  .process-container h1 {
+  .process-container h1,
+  .breakdown-container h1 {
       margin-top: 5rem;
   }
 
-  .process-container section p {
+  .process-container section p,
+      {
       margin-bottom: 2rem;
   }
 
@@ -460,7 +472,8 @@
       width: 100%;
   }
 
-  .process-banner {
+  .process-banner,
+  .breakdown-banner {
       width: 100%;
       margin: 0 auto;
       margin-bottom: 2rem;
@@ -482,6 +495,11 @@
   .process-banner h1 {
       margin-top: 0;
       margin-right: 1.5rem;
+  }
+
+  .breakdown-banner h1 {
+      margin-top: 0;
+      margin-right: 5rem;
   }
 
   .usertesting .three-col-img,
@@ -515,31 +533,41 @@
 
   .final-product a:hover {
       border-bottom: 2px solid #6237BD;
-      /*
-    text-decoration: underline;
-    text-decoration-color: #6237BD;
-*/
   }
 
-  /*
-  #reaserch-body {
-      font-family: Lato-regular.ttf;
-      font-style: normal;
-      font-weight: normal;
-      font-size: 20px;
-      line-height: 24px;
-  }
-*/
-
-  /*
-#mockup-header{
-width: 273px;
-height: 520px;
-left: 500px;
-top: 180px;
-}
-*/
   /* ~~~ Process End ~~~ */
+
+/* ~~~ Start breakdown page ~~~ */
+
+.breakdown-container h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.breakdown-container p {
+    margin-top: 1rem;
+}
+
+.breakdown-container section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.breakdown-container section .left-col, 
+.breakdown-container section .right-col {
+    width: 50%;
+}
+
+.breakdown-container section img {
+    width: 80%;
+}
+
+.breakdown-container section .img-col {
+    text-align: right;
+}
+
+/* ~~~ End breakdown page ~~~ */
 
 
   .highlighted-text-grey {
@@ -596,6 +624,10 @@ top: 180px;
   /* ~~~ Media Queries ~~~ */
   @media (max-width: 1200px) {
       .process-container {
+          padding: 1.2em 5%;
+      }
+
+      .breakdown-container {
           padding: 1.2em 5%;
       }
 
