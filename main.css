@@ -374,13 +374,13 @@
       background-color: black;
   }
 
-.footer-2 a {
-    color: white;
-}
+  .footer-2 a {
+      color: white;
+  }
 
-.footer-2 a:hover {
-    border-bottom: 1px solid white;
-}
+  .footer-2 a:hover {
+      border-bottom: 1px solid white;
+  }
 
   .footer-h2 {
       color: white;
@@ -491,6 +491,9 @@
       margin-bottom: 2rem;
       padding-top: 1rem;
 
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -516,10 +519,10 @@
 
   .usertesting .three-col-img,
   .design-solutions .three-col-img {
-      display: flex;
       display: -webkit-box;
       display: -moz-box;
       display: -ms-flexbox;
+      display: flex;
       justify-content: space-between;
       width: 100%;
   }
@@ -552,25 +555,29 @@
 
   /* ~~~ Process End ~~~ */
 
-/* ~~~ Start breakdown page ~~~ */
+  /* ~~~ Start breakdown page ~~~ */
 
-.breakdown-container h2 {
-    font-size: 2.5rem;
-    font-weight: 700;
-}
+  .breakdown-container h2 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      line-height: 2.6rem;
+  }
 
-.breakdown-container p {
-    margin-top: 1rem;
-}
+  .breakdown-container p {
+      margin-top: 1rem;
+  }
 
-.breakdown-container section {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 3rem;
-}
+  .breakdown-container section {
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 3rem;
+  }
 
-/* 
+  /* 
 .breakdown-container section img {
     border-top: 8px solid #6236BD;
     border-left: 8px solid #4C52B2;
@@ -579,20 +586,20 @@
 }
 */
 
-.breakdown-container section .left-col, 
-.breakdown-container section .right-col {
-    width: 50%;
-}
+  .breakdown-container section .left-col,
+  .breakdown-container section .right-col {
+      width: 50%;
+  }
 
-.breakdown-container section img {
-    width: 80%;
-}
+  .breakdown-container section img {
+      width: 80%;
+  }
 
-.breakdown-container section .img-col {
-    text-align: right;
-}
+  .breakdown-container section .img-col {
+      text-align: right;
+  }
 
-/* ~~~ End breakdown page ~~~ */
+  /* ~~~ End breakdown page ~~~ */
 
 
   .highlighted-text-grey {
@@ -632,7 +639,6 @@
   }
 
   .p-bold-purple {
-
       color: #6237BD;
       font-weight: 700;
       text-align: left;
@@ -660,4 +666,5 @@
           justify-content: space-between;
           padding: 5%;
       }
+  }
   }
