@@ -222,6 +222,9 @@
       height: auto;
       padding: 6rem 14%;
 
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
       display: flex;
       justify-content: space-around;
 
@@ -251,6 +254,9 @@
   }
 
   .burst-description {
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -440,6 +446,9 @@
   }
 
   .research-twocol {
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
       display: flex;
       justify-content: space-between;
   }
@@ -456,6 +465,9 @@
   }
 
   .interactive-mockup {
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
       display: flex;
       flex-direction: column;
   }
@@ -505,6 +517,9 @@
   .usertesting .three-col-img,
   .design-solutions .three-col-img {
       display: flex;
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
       justify-content: space-between;
       width: 100%;
   }
@@ -552,7 +567,17 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 3rem;
 }
+
+/* 
+.breakdown-container section img {
+    border-top: 8px solid #6236BD;
+    border-left: 8px solid #4C52B2;
+    border-bottom: 8px solid #6236BD;
+    border-right: 8px solid #4C52B2;
+}
+*/
 
 .breakdown-container section .left-col, 
 .breakdown-container section .right-col {
