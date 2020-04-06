@@ -433,6 +433,7 @@
       align-items: center;
 
       padding: 1.2em 18%;
+      padding-bottom: 0;
       flex-wrap: wrap;
       text-align: left;
   }
@@ -447,9 +448,8 @@
       margin-top: 5rem;
   }
 
-  .process-container section p,
-      {
-      margin-bottom: 2rem;
+  .process-container section p:last-of-type {
+      margin-bottom: 3rem;
   }
 
   .research-twocol {
@@ -561,6 +561,19 @@
   .final-product a:hover {
       border-bottom: 2px solid #6237BD;
   }
+
+.fullwidth {
+    width: 100%;
+    background-color: #565FBA;
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+}
+
+.final-product-image {
+    width: 50%;
+}
+
 
   /* ~~~ Process End ~~~ */
 
